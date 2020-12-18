@@ -1,0 +1,7 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-weight: bold !important;
+  }
+  .container-fluid {
+    width: 90% !important;
+  }
