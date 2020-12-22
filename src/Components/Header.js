@@ -1,62 +1,82 @@
 import React from "react";
 import logo from "./img/logo.png";
 import HeaderStyle from "./Header.css";
+import Footer from "./Footer";
+import Filters from "./Filters";
+import Card from "./Card";
 
 const Header = (props) => {
   return (
-    <div className="container-fluid bg-light">
-      <div class="row">
-        <div class="col pt-4">
-          <nav class="navbar navbar-expand-md navbar-light">
-            <a href="#" class="navbar-brand">
-              <img src={logo} height="60" alt="CoolBrand" />
-            </a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav ml-auto">
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  home
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  bikes
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  gear
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  parts
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  tires
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  service-info
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  catalogues
-                </a>
-                <a href="#" class="px-4 text-uppercase nav-item nav-link">
-                  contact
+    <div class="container bg-white">
+      <nav class="nav navv">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 flex">
+              <div class="navbar-header">
+                {/* <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#menu-button"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button> */}
+                <a href="#" class="navbar-brand">
+                  <img src={logo} class="img img-responsive" alt=""></img>
                 </a>
               </div>
-              <div class="navbar-nav ml-auto">
-                <a href="#" class="iconsHover">
-                  <i class="fas fa-search fa-2x p-2"></i>
-                </a>
-                <a href="#" class="iconsHover">
-                  <i class="fas fa-shopping-bag fa-2x p-2"></i>
-                </a>
+              <div class="collapse navbar-collapse" id="menu-button">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Вikes</a>
+                  </li>
+                  <li>
+                    <a href="#">Gear</a>
+                  </li>
+                  <li>
+                    <a href="#">Parts</a>
+                  </li>
+                  <li>
+                    <a href="#">Tires</a>
+                  </li>
+                  <li>
+                    <a href="#">Service-info</a>
+                  </li>
+                  <li>
+                    <a href="#">Catalogues</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="icons-menu">
+                <span>
+                  <i class="fas fa-search"></i>
+                  <i class="fas fa-shopping-bag"></i>
+                </span>
               </div>
             </div>
-          </nav>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title">Bikes</h1>
         </div>
       </div>
       <hr />
-      <div class="row">
-        <div class="col py-3">
-          <h1>Bikes</h1>
-        </div>
-      </div>
-      <hr/>
+      <Filters />
+   
+      <Footer />
     </div>
   );
 };
