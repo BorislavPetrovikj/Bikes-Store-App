@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./img/logo.png";
+// import logo from "/img/logo.png";
 import HeaderStyle from "./Header.css";
 import Footer from "./Footer";
 import Filters from "./Filters";
@@ -25,9 +25,9 @@ const Header = (props) => {
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button> */}
-                <a href="#" class="navbar-brand">
+                {/* <a href="#" class="navbar-brand">
                   <img src={logo} class="img img-responsive" alt=""></img>
-                </a>
+                </a> */}
               </div>
               <div class="collapse navbar-collapse" id="menu-button">
                 <ul class="nav navbar-nav">

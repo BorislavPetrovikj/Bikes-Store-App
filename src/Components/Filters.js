@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import Card from "./Card";
 import HeaderStyle from "./Header.css";
+import axios from "axios";
 class Filters extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   render() {
     return (
       <div class="row">
@@ -89,7 +85,9 @@ class Filters extends Component {
             </li>
           </ul>
         </div>
-        <Card />
+        <div class="col-md-9">
+          <Card />
+        </div>
       </div>
     );
   }
