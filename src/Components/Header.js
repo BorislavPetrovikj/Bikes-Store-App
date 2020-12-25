@@ -1,5 +1,5 @@
 import React from "react";
-// import logo from "src/img logo/logo.png"
+import logo from "./logo.png";
 import HeaderStyle from "./Header.css";
 import Footer from "./Footer";
 import Filters from "./Filters";
@@ -13,24 +13,13 @@ const Header = (props) => {
           <div class="row">
             <div class="col-md-12 flex">
               <div class="navbar-header">
-                {/* { <button
-                  type="button"
-                  class="navbar-toggle collapsed"
-                  data-toggle="collapse"
-                  data-target="#menu-button"
-                  aria-expanded="false"
-                >
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button> }
-                { <a href="#" class="navbar-brand">
+                <a href="#" class="navbar-brand">
                   <img src={logo} class="img img-responsive" alt=""></img>
-                </a> } */}
+                </a>
+                
               </div>
-              <div class="collapse navbar-collapse" id="menu-button">
-                <ul class="nav navbar-nav">
+{/*          
+                <ul class="nav navbar-nav ">
                   <li>
                     <a href="#">Home</a>
                   </li>
@@ -56,7 +45,9 @@ const Header = (props) => {
                     <a href="#">Contact</a>
                   </li>
                 </ul>
-              </div>
+              */}
+              
+
               <div class="icons-menu">
                 <span>
                   <i class="fas fa-search"></i>
