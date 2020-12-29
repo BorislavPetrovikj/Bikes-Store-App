@@ -16,9 +16,8 @@ const Header = (props) => {
                 <a href="#" class="navbar-brand">
                   <img src={logo} class="img img-responsive" alt=""></img>
                 </a>
-                
               </div>
-{/*          
+              {/*          
                 <ul class="nav navbar-nav ">
                   <li>
                     <a href="#">Home</a>
@@ -46,7 +45,6 @@ const Header = (props) => {
                   </li>
                 </ul>
               */}
-              
 
               <div class="icons-menu">
                 <span>
