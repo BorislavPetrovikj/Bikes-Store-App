@@ -1,6 +1,6 @@
 # Bike-Store-App
 
-Bike Store App made in React JS with fetch api
+Bike Store App coded in React JS 
 You can see it <a href="https://my-bike-shop.netlify.app/">here</a>
 
 
