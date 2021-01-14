@@ -1,5 +1,5 @@
 Bike Store App 
-You can see it <a href="https://app.netlify.com/sites/my-bike-shop/overview">here</a>
+You can see it <a href="https://my-bike-shop.netlify.app/">here</a>
 
 
 
