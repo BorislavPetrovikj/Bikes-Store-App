@@ -1,4 +1,4 @@
-# Brainster Labs
+# Bike-Store-App
 
 Bike Store App 
 You can see it <a href="https://my-bike-shop.netlify.app/">here</a>
