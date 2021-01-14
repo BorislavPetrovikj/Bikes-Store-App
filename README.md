@@ -1,3 +1,10 @@
+# Bike-Store-App
+
+Bike Store App coded in React JS 
+You can see it <a href="https://my-bike-shop.netlify.app/">here</a>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
