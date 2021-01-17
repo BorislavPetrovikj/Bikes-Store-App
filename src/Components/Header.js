@@ -14,34 +14,6 @@ const Header = (props) => {
                   <img src={logo} class="img img-responsive" alt=""></img>
                 </a>
               </div>
-              <div className="collapse navbar-collapse" id="menu-button">
-                <ul className="nav navbar-nav">
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
-                    <a href="/">Вikes</a>
-                  </li>
-                  <li>
-                    <a href="/">Gear</a>
-                  </li>
-                  <li>
-                    <a href="/">Parts</a>
-                  </li>
-                  <li>
-                    <a href="/">Tires</a>
-                  </li>
-                  <li>
-                    <a href="/">Service-info</a>
-                  </li>
-                  <li>
-                    <a href="/">Catalogues</a>
-                  </li>
-                  <li>
-                    <a href="/">Contact</a>
-                  </li>
-                </ul>
-              </div>
               <div class="icons-menu">
                 <span>
                   <i class="fas fa-search"></i>
